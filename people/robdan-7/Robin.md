@@ -1,6 +1,9 @@
 #### Name
 Robin Danielsson
 
+#### Age
+21
+
 #### Education
 master programme in Computer Science and engineering.
 

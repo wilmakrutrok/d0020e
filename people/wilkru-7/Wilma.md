@@ -1,4 +1,4 @@
-Wilma Krutrök
+Wilma Krutrök \
 Computer science and Engineering, master, year 3
-# Email 
+#### Email 
 wilkru-7@student.ltu.se

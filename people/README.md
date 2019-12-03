@@ -1,2 +1,2 @@
 # Collaborators
-This folder holds contact information and a short introduction to who we are.
+This folder holds contact information and short introductions to who we are.

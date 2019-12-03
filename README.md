@@ -19,6 +19,7 @@ Or, a teacher can insure that a prerequisite for a course is reasonable and that
 
 ## The group
 Within the course, the student group (Group 2) is composed of 6 students.
+[Collaborators](../master/people/README)
 
 ## The Git Workflow
 All group members are collaborators on the remote repository.

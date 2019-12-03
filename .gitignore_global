@@ -1,0 +1,5 @@
+## Ignore ALL Mac OS files where ever
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store

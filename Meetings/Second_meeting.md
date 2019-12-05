@@ -23,7 +23,7 @@
 ## Meeting notes
 Summary from Meeting 3/12 - 19
 
-First up we got things to fix with Git. \
+First up we got things to fix with Git. 
 - Readme file for all folders
 - Meeting into the folder for Meetings
 - Link to students file in Readme

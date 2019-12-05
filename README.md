@@ -26,7 +26,9 @@ Within the course, the student group (Group 2) is composed of 6 students.
 All group members are collaborators on the remote repository.
 The master branch is locked so that accidental unreviewed changes are not possible.
 Each member push their committed changes to their own branch before making a pull request.
-...
+
+
+![workflow](Resources/Git_workflow-page-001.jpg)
 
 ## Git Instructions
 #### Repo setup

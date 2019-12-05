@@ -24,14 +24,14 @@
 Summary from Meeting 3/12 - 19
 
 First up we got things to fix with Git. 
-Readme file for all folders
-Meeting into the folder for Meetings
-Link to students file in Readme
-Don’t use alias in name of folders
-Redo presentation, CV style, make it more interesting
-Remove John Doe.. :)
-Add next meeting date in the meeting file
-Describe Workflow
+- Readme file for all folders
+- Meeting into the folder for Meetings
+- Link to students file in Readme
+- Don’t use alias in name of folders
+- Redo presentation, CV style, make it more interesting
+- Remove John Doe.. :)
+- Add next meeting date in the meeting file
+- Describe Workflow
 
 For the future meetings the student group are asked to come up with the agenda. In the meeting today it was a lot of misunderstanding because of the material we show didn’t contain enough information. This will be the main focus for our group to fix until the next meeting. We were also asked to present an idea of the User Interface. 
 

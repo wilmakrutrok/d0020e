@@ -27,3 +27,54 @@ All group members are collaborators on the remote repository.
 The master branch is locked so that accidental unreviewed changes are not possible.
 Each member push their committed changes to their own branch before making a pull request.
 ...
+
+## Git Instructions
+#### Repo setup
+##### Prerequisites:
+
+1. [Git](https://git-scm.com/ "Git Homepage")
+
+##### Setup:
+
+```bash
+git clone https://github.com/Github-username/d0020e.git
+```
+
+#### Git branches
+
+
+```bash
+git switch -c BRANCH_NAME
+```
+to change to a branch that already exist 
+
+```bash
+git switch BRANCH_NAME
+```
+#### Git pull
+gets the latest version
+
+
+#### Git push and commit
+Before commit check status
+```bash
+git status
+```
+To add all item (or specific files) 
+```bash
+git add .
+```
+**Make sure you are not on master branch**
+commit changes
+```bash
+git commit -m 'message'
+```
+and to push changes (will not appear in repo before push) always stage a commit before pushing
+```bash
+git push
+```
+Finally when branch is done, submit a pull request on Github
+
+#### Git documentation
+
+`https://docs.gitlab.com/`

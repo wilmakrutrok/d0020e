@@ -46,7 +46,7 @@ git clone https://github.com/Github-username/d0020e.git
 
 
 ```bash
-git switch -c BRANCH_NAME
+git switch -c NEW_BRANCH_NAME
 ```
 to change to a branch that already exist 
 

@@ -30,11 +30,13 @@ Each member push their committed changes to their own branch before making a pul
 
 ![workflow](Resources/Git_workflow-page-001.jpg)
 
+Message should be short and on point, 'feature: what i have done for this commit'
+ f
 ## Git Instructions
 #### Repo setup
 ##### Prerequisites:
 
-1. [Git](https://git-scm.com/ "Git Homepage")
+1. [Git-for-windows](https://git-scm.com/ "Git Homepage")
 
 ##### Setup:
 
@@ -75,8 +77,23 @@ and to push changes (will not appear in repo before push) always stage a commit 
 ```bash
 git push
 ```
-Finally when branch is done, submit a pull request on Github
+Finally when branch is done, submit a pull request on Github.
+If you are on a new branch sometimes you are required to push up stream
 
+```bash
+git push --set-upstream origin BRANCH_NAME
+```
+Alternatively and much more simple:
+
+```bash
+git push -u origin BRANCH_NAME
+```
 #### Git documentation
 
-`https://docs.gitlab.com/`
+[Gitlab-documentation](https://docs.gitlab.com/)
+
+#### Git Markdown
+
+* [Github-markdown](https://guides.github.com/features/mastering-markdown/)
+
+* [Gitlab-markdown](https://docs.gitlab.com/ee/user/markdown.html)

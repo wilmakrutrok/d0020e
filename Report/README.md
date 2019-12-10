@@ -8,4 +8,4 @@ The report's structure is based on the classical organizational constrution [IMR
 - Disucussion
 - Conclusion
 
-The report is supported by a bibliography given in two formats: Markdown and BibTeX.
+The report is supported by a bibliography given in two formats: [Markdown](https://en.wikipedia.org/wiki/Markdown) and [BibTeX](https://en.wikipedia.org/wiki/BibTeX).

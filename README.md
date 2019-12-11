@@ -30,6 +30,10 @@ Each member push their committed changes to their own branch before making a pul
 
 ![workflow](Resources/Git_workflow-page-001.jpg)
 
+For git specific commands
+
+![workflow](Resources/Git_workflow.drawio2-page-002.jpg)
+
 Message should be short and on point, 'feature: what i have done for this commit'
  f
 ## Git Instructions

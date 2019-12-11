@@ -30,7 +30,7 @@ Because of the limited time set the project group will not focus on collecting t
 ## System Design
 The software is planned to be implemented as a Java program. In that way classes and objects can be implemented. Java also got the libraries needed to communicate with a database. Courses and knowledge components will be implemented as objects with different parameters. Courses will be connected to knowledge components containing the taxonomy level. It will also make it possible to make the connections between the different objects clearer and easier to change.
 
-All the data about the courses and the knowledge components will be stored in a Neo4J[^footnote] database with the same structure as in the node objects. The reason for choosing Neo4J is because it is fast with graph relationships and the way it is constructed makes it easy to create and connect nodes. Storing the data in a database will give a good overview and access to the data. Connection to the front-end program from the Java program will go through a server.
+All the data about the courses and the knowledge components will be stored in a Neo4J<sup>[1](#footnote)</sup> database with the same structure as in the node objects. The reason for choosing Neo4J is because it is fast with graph relationships and the way it is constructed makes it easy to create and connect nodes. Storing the data in a database will give a good overview and access to the data. Connection to the front-end program from the Java program will go through a server.
 
 ![A first design of the UML-diagram](../../report/Resources/UML.png)
 <center>
@@ -39,6 +39,5 @@ Figure 1: A first design of the UML-diagram.
 
 Figure 1 is an overview of our system design. The user will access the system using a web browser. The Java program will contain a JSP (Java Server Pages) class running in a Tomcat container and connect to the web browser using HTTP requests. All database communication will be handled by the Java program. Courses and knowledge components will be represented as nodes in a graph. Using this method it will be easy and fast to make changes in the graph and return the changes back to the user. 
 
-
-[^footnote]:Neo4J website. 2019-12-11. [https://neo4j.com](https://neo4j.com)
+<a name="footnote">1</a>: Neo4J website. 2019-12-11. [https://neo4j.com](https://neo4j.com)
 

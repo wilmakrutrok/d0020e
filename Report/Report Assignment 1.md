@@ -5,7 +5,7 @@ Marcus Eriksson - amueri-6@student.ltu.se<br>
 Wilma Krutrök - wilkru-7@student.ltu.se<br>
 Jesper Nilsson - ejeino-7@student.ltu.se<br>
 Johan Rodahl Holmgren - ojaohe-3@student.ltu.se<br></p>
-</center>
+</center><div style="page-break-after: always; break-after: page;"></div>
 
 ## Introduction
 This report is part of an assigned project in the course “<i>Project in computer science and engineering</i>”. The purpose of the project is to give students, teachers and student counsellors a tool for viewing and evaluating information about the knowledge given in different courses. The tool itself will hopefully provide students with a wider understanding of how different courses are connected and why parts of them are important for future studies. Teachers will be able to see how changing a part of a course would affect other courses given to the same students.
@@ -27,6 +27,8 @@ To solve the problem a software will be implemented. The software will be web ba
 ### Delimitation
 Because of the limited time set the project group will not focus on collecting the data that is needed for the solution to work. This job will be placed on the examiners together with a group of engaged teachers. The system will not be fully integrated with the system the university is currently using. 
 
+<div style="page-break-after: always; break-after: page;"></div>
+
 ## System Design
 The software is planned to be implemented as a Java program. In that way classes and objects can be implemented. Java also got the libraries needed to communicate with a database. Courses and knowledge components will be implemented as objects with different parameters. Courses will be connected to knowledge components containing the taxonomy level. It will also make it possible to make the connections between the different objects clearer and easier to change.
 
@@ -40,4 +42,3 @@ Figure 1: A first design of the UML-diagram.
 Figure 1 is an overview of our system design. The user will access the system using a web browser. The Java program will contain a JSP (Java Server Pages) class running in a Tomcat container and connect to the web browser using HTTP requests. All database communication will be handled by the Java program. Courses and knowledge components will be represented as nodes in a graph. Using this method it will be easy and fast to make changes in the graph and return the changes back to the user. 
 
 <a name="footnote">1</a>: Neo4J website. 2019-12-11. [https://neo4j.com](https://neo4j.com)
-

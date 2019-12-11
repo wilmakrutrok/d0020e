@@ -50,7 +50,7 @@ Figure 1: A first design of the UML-diagram.
 
 
 
-
+<a name="footnote">1</a>: Neo4J website. 2019-12-11. [https://neo4j.com](https://neo4j.com)
 
 <center>2</center>
 <div style="page-break-after: always; break-after: page;"></div>
@@ -111,6 +111,6 @@ Figure 1 is an overview of our system design. The user will access the system us
 
 
 
-<a name="footnote">1</a>: Neo4J website. 2019-12-11. [https://neo4j.com](https://neo4j.com)
+
 
 <center>3</center>

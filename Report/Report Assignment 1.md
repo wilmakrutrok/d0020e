@@ -32,7 +32,7 @@ The software is planned to be implemented as a Java program. In that way classes
 
 All the data about the courses and the knowledge components will be stored in a Neo4J<sup>[1](#footnote)</sup> database with the same structure as in the node objects. The reason for choosing Neo4J is because it is fast with graph relationships and the way it is constructed makes it easy to create and connect nodes. Storing the data in a database will give a good overview and access to the data. Connection to the front-end program from the Java program will go through a server.
 
-![A first design of the UML-diagram](../../report/Resources/UML.png)
+![A first design of the UML-diagram](.././Resources/UML.png)
 <center>
 Figure 1: A first design of the UML-diagram.
 </center>

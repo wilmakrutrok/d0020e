@@ -5,6 +5,8 @@ Marcus Eriksson - amueri-6@student.ltu.se<br>
 Wilma Krutrök - wilkru-7@student.ltu.se<br>
 Jesper Nilsson - ejeino-7@student.ltu.se<br>
 Johan Rodahl Holmgren - ojaohe-3@student.ltu.se<br></p>
+<br><br>
+    December 11, 2019
 </center><div style="page-break-after: always; break-after: page;"></div>
 
 ## Introduction
@@ -16,8 +18,6 @@ Project owner Jan van Deventer stated a problem with students not having the kno
 
 One attempt to solve this problem has been done. The solution was using Google Sheets and Matlab which turned out to be very inefficient. One big challenge was that teachers named the knowledge components differently, resulting in chaos. The program was not able to see if something was misspelled, used shortening or other similar things. 
 
-
-
 ### Problem description
 The main problems are divided into different parts. One is that some courses overlap while some courses have a missing link. Prerequisites is not obvious between teacher nor is what is to be taught for future courses. When interviewing the teachers it became apparent that most of the teachers had to do some changes in their teaching because students did not have the knowledge needed. Some of the reasons is that students had not learned it or the course had not included it. 
 
@@ -27,8 +27,14 @@ To solve the problem a software will be implemented. The software will be web ba
 ### Delimitation
 Because of the limited time set the project group will not focus on collecting the data that is needed for the solution to work. This job will be placed on the examiners together with a group of engaged teachers. The system will not be fully integrated with the system the university is currently using. 
 
-<div style="page-break-after: always; break-after: page;"></div>
 
+
+
+
+
+
+<center>1</center>
+<div style="page-break-after: always; break-after: page;"></div>
 ## System Design
 The software is planned to be implemented as a Java program. In that way classes and objects can be implemented. Java also got the libraries needed to communicate with a database. Courses and knowledge components will be implemented as objects with different parameters. Courses will be connected to knowledge components containing the taxonomy level. It will also make it possible to make the connections between the different objects clearer and easier to change.
 
@@ -39,6 +45,72 @@ All the data about the courses and the knowledge components will be stored in a 
 Figure 1: A first design of the UML-diagram.
 </center>
 
-Figure 1 is an overview of our system design. The user will access the system using a web browser. The Java program will contain a JSP (Java Server Pages) class running in a Tomcat container and connect to the web browser using HTTP requests. All database communication will be handled by the Java program. Courses and knowledge components will be represented as nodes in a graph. Using this method it will be easy and fast to make changes in the graph and return the changes back to the user. 
+
+
+
+
+
 
 <a name="footnote">1</a>: Neo4J website. 2019-12-11. [https://neo4j.com](https://neo4j.com)
+
+<center>2</center>
+<div style="page-break-after: always; break-after: page;"></div>
+Figure 1 is an overview of our system design. The user will access the system using a web browser. The Java program will contain a JSP (Java Server Pages) class running in a Tomcat container and connect to the web browser using HTTP requests. All database communication will be handled by the Java program. Courses and knowledge components will be represented as nodes in a graph. Using this method it will be easy and fast to make changes in the graph and return the changes back to the user. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<center>3</center>

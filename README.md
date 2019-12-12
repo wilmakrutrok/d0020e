@@ -92,6 +92,17 @@ Alternatively and much more simple:
 ```bash
 git push -u origin BRANCH_NAME
 ```
+#### Git Merge
+
+Rebase alternativ really nice way to get an overview
+```bash
+git rebase <BRANCH> -s recursive -X patient
+```
+Likewise for merge
+```bash
+git merge <BRANCH> -s recursive -X patient
+```
+
 #### Git documentation
 
 [Gitlab-documentation](https://docs.gitlab.com/)

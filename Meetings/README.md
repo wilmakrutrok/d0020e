@@ -1,5 +1,19 @@
 # Meetings
 Documentation for meetings with group. Notes, agenda and other documentation is found here
+#### Prevous Meetings
+
+
+1. [2019-11-22](Group2191122.md)
+    - Agenda: initial problem description
+    
+    
+1. [2019-12-03](Second_meeting.md)
+    - [Agenda](Agenda191203.md)
+    
+1. [2019-12-10](Meeting_191210.md)
+    - [Agenda](Agenda191210.md)
+
+ 
 # Team Workflow
 Scrum Master - Tommy Andersson
 Git Master - Johan Rodahl Holmgren
